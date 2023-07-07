@@ -45,7 +45,7 @@ nav {
   padding: 64px;
   grid-area: timeline;
   overflow: scroll;
-  animation: entering 1s ease-in-out;
+  animation: entering 2s ease-in-out;
 }
 .memory {
   display: flex;
@@ -64,13 +64,16 @@ nav {
 
 }
 .memory img {
-  width: 90%;
+  width: 50%;
   height: 280px;
   object-fit: cover;
   border-radius: 8px;
 
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
+
+
+
 
 .memory div{
   width: 50%;
@@ -80,9 +83,11 @@ nav {
 }
 
 .memory:hover img{
-transform: scale(1.1);
+transform: scale(1.2);
 
 }
+
+
 
 
 .memory p {
